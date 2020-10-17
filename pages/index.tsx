@@ -45,7 +45,6 @@ export default function Home({
                 <a>{title}</a>
               </Link>
               <br />
-              {date}
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
               </small>
